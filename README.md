@@ -1,3 +1,17 @@
+# ac-a25-mysql-fake-data
+分享給AC同學用的A25假資料
+
+## How-to-use
+把下方程式碼複製貼上到
+http://sqlfiddle.com/
+點選Build Schema就可以作為配合A25作業測試用的資料庫
+
+結構與教案應該是一樣的
+drinks, customers, orders共三個tables
+每個table的主鍵都是id
+其中orders包含drink_id, customer_id兩個外鍵
+
+![ERD](https://github.com/EasonLin0716/ac-a25-mysql-fake-data/blob/master/A25.png)
 ```
 
 CREATE TABLE `drinks` (
