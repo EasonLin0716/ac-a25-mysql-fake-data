@@ -12,6 +12,8 @@ drinks, customers, orders共三個tables
 其中orders包含drink_id, customer_id兩個外鍵
 
 ![ERD](https://github.com/EasonLin0716/ac-a25-mysql-fake-data/blob/master/A25.png)
+
+有錯誤的話在提醒我一下，希望可以幫到大家，謝謝
 ```
 
 CREATE TABLE `drinks` (
